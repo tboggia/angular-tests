@@ -1,0 +1,1 @@
+var certsList = angular.module('certsList', []);

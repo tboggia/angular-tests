@@ -1,0 +1,61 @@
+[{
+	"courseProfile": [
+	{
+		"objectId": 73264,
+		"courseTitle": "Building Systems and Technology",
+		"sections": {
+			"section": {
+				"objectId": 39288608,
+				"sectionAvailabilityStatus": {
+					"message": "Available",
+					"label": "available"
+				}
+			}
+		}
+	}, {
+		"objectId": 39989,
+		"courseTitle": "Introduction to Facilities Management",
+		"sections": {
+			"section": [{
+				"objectId": 37069207,
+				"sectionAvailabilityStatus": {
+					"message": "Enrollment Closed",
+					"label": "enrollment_closed"
+				}
+			}, {
+				"objectId": 39288896,
+				"sectionAvailabilityStatus": {
+					"message": "Available",
+					"label": "available"
+				}
+			}]
+		}
+	}, {
+		"objectId": 39992,
+		"courseTitle": "Facilities Management: Strategic Planning Leadership and the Organization"
+	}, {
+		"objectId": 7026204,
+		"courseTitle": "Free Information Session: Certificate Program in HVAC"
+	}]
+}, {
+	"courseProfile": [
+	{
+		"objectId": 88666,
+		"courseTitle": "Ancient Egyptian Hieroglyphs"
+	}, {
+		"objectId": 40606,
+		"courseTitle": "Academic Writing for ESL",
+		"sections": {
+			"section": {
+				"objectId": 38582369,
+				"sectionAvailabilityStatus": {
+					"message": "Available",
+					"label": "available"
+				}
+			}
+		}
+	}, {
+		"objectId": 19528541,
+		"courseTitle": "Free Information Session: Certificate Program in Student Affairs and Higher Education Administration"
+	}]
+}]

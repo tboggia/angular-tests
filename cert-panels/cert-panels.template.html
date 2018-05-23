@@ -1,0 +1,20 @@
+<p><strong>Education:</strong></p>
+<p>Search: <input ng-model="$ctrl.query" /></p> 
+<p> Sort: 
+	<select ng-model="$ctrl.orderProp">
+		<option value="certificate.name">Alphabetical</option>
+		<option value="certificate.cost">Cost</option>
+	</select>
+</p>
+<p> Program Area: 
+	<select ng-model="$ctrl.aos" ng-change="$ctrl.getCorrectData()">
+		<option value="art-and-design">Art and Design</option>
+		<option value="education">Education</option>
+	</select>
+</p>
+<ul> 
+	<li ng-repeat="cert in $ctrl.certs | filter:$ctrl.query | orderBy:$ctrl.orderProp"> 
+		<p>{{cert.certificate.category}}  
+		<span>{{cert.certificate.name}}</span></p> 
+	</li> 
+</ul>

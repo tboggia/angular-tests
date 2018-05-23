@@ -1,0 +1,1 @@
+var pageApp = angular.module('certsApp', ['certsList']);
