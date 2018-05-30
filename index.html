@@ -2,24 +2,23 @@
   <head>
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/1.7.2/moment.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>
     
   </head>
   <body>
     <div ng-app="angularApp">
-      <!-- <div ng-controller="artAndDesignController as art" class="hidden">
-        <strong>Art and Design <input ng-model="art.query"/> </strong>
-        <ul>
-          <li ng-repeat="cert in art.certs | filter: art.query">
-            <p>{{cert.certificate.category}} <span>{{cert.certificate.name}}</span></p>
-          </li>
-        </ul>
-      </div> -->
+      <div ng-view> </div>
+
+      <!-- certs-list uses the cert-panels component without the router -->
       <certs-list>
+
       </certs-list>
     </div>
     <script type="text/javascript" src="cert-panels/cert-panels.module.js"></script>
     <script type="text/javascript" src="cert-panels/cert-panels.component.js"></script>
-    <script type="text/javascript" src="cert-panels/cert-panels.controller.js"></script>
+    <script type="text/javascript" src="cert-detail/cert-detail.module.js"></script>
+    <script type="text/javascript" src="cert-detail/cert-detail.component.js"></script>
     <script type="text/javascript" src="app.module.js"></script>
+    <script type="text/javascript" src="app.config.js"></script>
   </body>
 </html>

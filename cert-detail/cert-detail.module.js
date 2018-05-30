@@ -1,0 +1,1 @@
+var certDetail = angular.module('certDetail', ['ngRoute']);

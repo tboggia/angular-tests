@@ -1,1 +1,1 @@
-var pageApp = angular.module('certsApp', ['certsList']);
+var pageApp = angular.module('certsApp', ['ngRoute', 'certsList', 'certDetail']);
